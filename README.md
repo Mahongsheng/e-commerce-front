@@ -148,4 +148,4 @@ npm run build
 
 ## 许可证
 
-[Apache License 2.0](https://github.com/Mahongsheng/e-commerce/LICENSE)
+[Apache License 2.0](https://github.com/Mahongsheng/e_commerce_front/blob/master/LICENSE)
