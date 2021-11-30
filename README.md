@@ -1,6 +1,6 @@
 <center><image src="document/orange-brand-big.png"></image></center>
 
-<center><image src="https://img.shields.io/badge/后端项目-e--commerce--back-brightgreen.svg"></image><image src="https://img.shields.io/badge/前端项目-e--commerce--front-orange.svg"></image><image src="https://img.shields.io/badge/东北大学-实训大作业-red.svg"></image></center>
+<p><image src="https://img.shields.io/badge/后端项目-e--commerce--back-brightgreen.svg"></image><image src="https://img.shields.io/badge/前端项目-e--commerce--front-orange.svg"></image><image src="https://img.shields.io/badge/东北大学-实训大作业-red.svg"></image></p>
 
 ## 项目介绍
 
@@ -140,7 +140,7 @@ npm run build
 
 ## 特别感谢
 
-感谢东北大学软件学院的培养、感谢东软睿道集团的辛勤教导、感谢团队五位同学（张同学、陈同学、年同学、邱同学、马同学）的大力支持！
+感谢东北大学软件学院的培养、感谢东软睿道集团的辛勤教导、感谢团队其他四位同学（[张同学](https://github.com/Yousabla)、[陈同学](https://github.com/MessiahChen)、[年同学](https://github.com/nian9901)、[邱同学](https://github.com/qiu260028891)）的大力支持！
 
 ## 联系我们
 
