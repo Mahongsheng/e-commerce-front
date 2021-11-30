@@ -46,7 +46,7 @@
         <el-form-item label="Icon" prop="icon">
           <el-select v-model="menuInfo.icon" placeholder="Please choose icon" style="width: 100%;">
             <svg-icon slot="prefix" :icon-class="menuInfo.icon" />
-            <el-option v-for="icon in icons" :key="this" :label="icon" :value="icon">
+            <el-option v-for="(icon, index) in icons" :key="index" :label="icon" :value="icon">
             </el-option>
           </el-select>
         </el-form-item>
@@ -63,9 +63,9 @@
           <el-switch v-model="ifFatherMenu"></el-switch>
         </el-form-item>
 
-        <el-form-item label="Select Father">
+        <el-form-item v-if="!ifFatherMenu" label="Select Father" prop="parentId">
 
-          <el-select v-model="menuInfo.parentId" placeholder="Please select father menu" :disabled="ifFatherMenu" style="width: 100%;">
+          <el-select v-model="menuInfo.parentId" placeholder="Please select father menu" style="width: 100%;">
             <el-option v-for="father in menuInfos" :key="father.id" :label="father.title" :value="father.id">
             </el-option>
           </el-select>
@@ -141,6 +141,11 @@
             message: 'Please input sort number',
             trigger: 'blur'
           }],
+          parentId: [{
+            required: true,
+            message: 'Please choose the parent directory',
+            trigger: 'blur'
+          }]
         }
       }
     },
